@@ -1,0 +1,21 @@
+{% extends "paginas/base.html" %}
+
+{% block titulo  %} Agregar nuevo multimedia {% endblock %}
+
+{% block contenido  %} 
+
+<div class="card">
+    <div class="card-header">
+        Crear multimedia
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos del multimedia </h4>
+      {% include 'multimedias/form_multimedias.html' %}
+        <p class="card-text"></p>
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}

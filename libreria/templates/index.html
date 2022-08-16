@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Scripts de la frase -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- Title -->
+    <title>Grupo Simacc</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <!-- Imagen pestaña -->
+    <link rel="icon" href="{% static 'img/core-img/Mundo.png' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons2.css' %}">
+    <!-- Estilo del menu -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+     <!-- Frase -->
+     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}" />
+    <script src="{% static 'js/jquery.cbpQTRotator.min.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+</head>
+
+<body>
+    <!-- ##### Inicio de Header  ##### -->
+    <header class="header-area">
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-12 h-100">
+                        <div class="header-content h-100 d-flex align-items-center justify-content-between">
+                            <div class="academy-logo">
+                                <a href="index.html"><img  src="{% static 'img/core-img/GRUPO SIMACC LOGO BCO 100.jpg' %}" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inicio de Menu -->
+        <div class="academy-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="academyNav">
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="#sobre_nosotros">Sobre nosotros</a></li>
+                                    <li><a href="#servicios">Servicios</a></li>
+                                    <li><a href="#cursos">Cursos</a></li>
+                                    <li><a href="#multimedias">Multimedias</a></li>        
+                                    <li><a href="#contacto">Contacto</a></li>
+                                    <li><a href="/admin">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Numero de telefono -->
+                        <div class="calling-info">
+                            <div class="call-center">
+                                <a href="tel:+522411471622"><i class="icon-telephone-2"></i> <span>(+52) 241 147 16 22</span></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Fin de Menu ##### -->
+
+    <!-- ##### Inicio de Carrusel ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <!-- Imagen 1 -->
+            <div class="single-hero-slide bg-img" style="background-image: url('{% static imagen %}');">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Todos los cursos que necesitas</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a <br>Grupo Simacc</h2>
+                                <a href="#sobre_nosotros" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagen 2 -->
+            <div class="single-hero-slide bg-img" style="background-image: url('{% static imagen2 %}');">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <h4 data-animation="fadeInUp" data-delay="100ms">Todos los cursos que necesitas</h4>
+                                <h2 data-animation="fadeInUp" data-delay="400ms">Bienvenido a <br>Grupo Simacc</h2>
+                                <a href="#" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Fin de carrusel ##### -->
+    
+    <!-- ##### Sobre nosotros##### -->
+    <section class="hero-area">
+        <div id="about">
+            <div class="fh5co-heading text-center">
+                <br><br><br>
+                    <h3 id="sobre_nosotros" class="fh5co-heading-title">Sobre nosotros <span class="border"></span></h3>       
+                <br>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 ">
+                    <img src="{% static 'img/core-img/MEMBRETE2.jpg' %}" width="100%">
+                    <div class="about-img"><br><img src="{% static 'img/core-img/3.png' %} " class="img-responsive" alt=""></div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                <div class="about-text">
+                    <br><h3>Mision</h3>
+                    <hr>
+                        <p>Brindar capacitación para y en el trabajo, proporcionando conocimientos, 
+                        habilidades y destrezas que contribuyan al aumento de la productividad.</p>
+                    <h3>Vision</h3>
+                    <hr>
+                        <p>Ser una institución privada líder en brindar los servicios de capacitación y 
+                        certificación de las competencias laborales, a personas que demandan el sector 
+                        tecnológico.</p>
+                    <h3>Objetivo</h3>
+                        <p>Perfeccionamiento de las habilidades existentes y el desarrollo de nuevas 
+                        en las Tics.</p>
+                </div>  
+            </div>
+        </div>
+            
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- ##### FRASE DE LA PAGINA ##### -->
+    <div class="animsition-overlay">
+        <div id="section-4">
+          <div class="grid flex">
+            <div class="fh5co-heading text-center">
+                <br><br><br>
+                    <h3 id="sobre_nosotros" class="fh5co-heading-title">Frase <span class="border"></span></h3>       
+                <br>
+            </div>
+            <article> <img src="{% static 'img/gall2.jpg' %}" alt="Web design Istra" data-parallax='{"y": 230}'/>
+              <div class="absomid-cbp white7 corner">
+                <div id="cbp-qtrotator" class="cbp-qtrotator">
+                  <div class="cbp-qtcontent">
+                    <blockquote>
+                      <p>"El cerebro no es vaso por llenar, sino lámpara por encender"</p>
+                      <footer>Plinio el Viejo</footer>
+                    </blockquote>
+                  </div>
+                  <div class="cbp-qtcontent">
+                    <blockquote>
+                      <p>"La mente es como un paracaídas: sólo funciona si se abre"</p>
+                      <footer>Albert Einstein</footer>
+                    </blockquote>
+                  </div>
+                  <div class="cbp-qtcontent">
+                    <blockquote>
+                      <p>"Intenta aprender algo sobre todo y todo sobre algo"</p></p>
+                      <footer>Thomas Huxley</footer>
+                    </blockquote>
+                  </div>
+                  <div class="cbp-qtcontent">
+                    <blockquote>
+                      <p>"Somos lo que hacemos repetidamente. La excelencia, entonces, no es un acto, es un hábito"</p>
+                      <footer>Aristóteles</footer>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+              <!-- END absomid --> 
+            </article>
+          </div>
+          <!-- END .GRID FLEX -->   
+        </div>
+        <!-- END #section-3 -->
+        
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+      <script src="{% static 'js/owl.carousel.min.js' %}"></script> 
+      <script src="{% static 'js/jquery.cbpQTRotator.min.js' %}"></script> 
+      <script>
+          $( function() {
+          $( '#cbp-qtrotator' ).cbpQTRotator();					
+          });
+      </script>
+
+
+    <!-- ##### SERVICIOS ##### -->
+    <div id="servicios" >
+    <div id="fh5co-page">
+        <main id="fh5co-main" role="main">
+            <div class="container pb-lg">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="fh5co-heading text-center">
+                            <br><br><br>
+                                <h3 class="fh5co-heading-title">Servicios <span class="border"></span></h3>       
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="fh5co-main-service">
+                            <a href="mailto:gruposimacc@gmail.com" class="fh5co-block-links text-center">
+                                <div class="icon-circle">
+                                    <i class="icon-laptop"></i>
+                                </div>
+                                <h2 >Reparación de computadoras </h2>
+                                <p>Como empresa ofrecemos el servicio de reparación de computadoras, instalación de office, 
+                                    activación de Windows, formateo profesional de pc y laptops, programas de antivirus, 
+                                    mantenimiento preventivo y correctivo.</p>
+                                <p  target="blank"> <span  class="learn-more">Contactanos</span></p>
+                            </a>
+                        </div>		
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="fh5co-main-service">
+                            <a href="mailto:gruposimacc@gmail.com" class="fh5co-block-links text-center">
+                                <div class="icon-circle">
+                                    <i class="icon-customer-service"></i>
+                                </div>
+                                    <h2>Venta de computadoras y accesorios</h2>
+                                    <p>Solicita tu cotización en cualquier tipo de computadora y/o accesorios para pc y laptops. </p>
+                               <p><span class="learn-more">Contactanos</span></p>
+                            </a>
+                        </div>	
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="fh5co-main-service">
+                            <a href="mailto:gruposimacc@gmail.com" class="fh5co-block-links text-center">
+                                <div class="icon-circle">
+                                    <i class="icon-id-card"></i>
+                                </div>
+                                <h2>Creación de multimedias</h2>
+                                <p>Nos dedicamos a la creación de sitios web, multimedias y sistemas.</p>
+                              <p><span class="learn-more">Contactanos</span></p>
+                            </a>
+                        </div>		
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>         
+        
+    <!-- ##### Fin de servicios ##### -->
+
+    
+    <!-- ##### Inicio de Cursos ##### -->
+    <div class="top-popular-courses-area section-padding-100-70" id="cursos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <span>Lo mejor</span>
+                        <h3>Los cursos más populares</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> 
+{% for curso in cursos %}
+                <!-- Top Popular Course -->
+                <div class="col-12 col-lg-6">
+                    <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                        <div class="popular-course-content">
+                            <h5>{{ curso.titulo }}</h5>
+                            <span>Por Alejandro Peña   |  Marzo 18, 2022</span>
+                            <div class="course-ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                            </div>
+                            <p>{{ curso.descripcion }}</p>
+                        </div>
+                        <div class="popular-course-thumb bg-img" style="background-image: url('{{ curso.imagen.url }}');"></div>
+                    </div>
+                </div>
+{% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- ##### Top Popular Courses Area End ##### -->
+
+        <!-- ##### Top Multimedias Start ##### -->
+        <div class="top-popular-courses-area section-padding-100-70" id="multimedias">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                            <span>Nuestros</span>
+                            <h3>Multimedias</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+{% for multimedia in multimedias %}
+                    <!-- Single Top Popular Multimedias -->
+                    <div class="col-12 col-lg-6">
+                        <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="popular-course-content">
+                                <h5>{{ multimedia.titulo }}</h5>
+                                <div class="course-ratings">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                </div>
+                                <p>{{ multimedia.descripcion }}</p>
+                            </div>
+                            <div class="popular-course-thumb bg-img" style="background-image: url('{{ multimedia.imagen.url }}');"></div>
+                        </div>
+                    </div>
+{% endfor %}
+                </div>
+            </div>
+        </div>
+
+                    
+                    
+        <!-- ##### Top Popular Multimedias Area End ##### -->
+
+
+        <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="{% static 'js/jquery/jquery-2.2.4.min.js' %}"></script>
+    <!-- Popper js -->
+    <script src="{% static 'js/bootstrap/popper.min.js' %}"></script>
+    <!-- Bootstrap js -->
+    <script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+    <!-- All Plugins js -->
+    <script src="{% static 'js/plugins/plugins.js' %}"></script>
+    <!-- Active js -->
+    <script src="{% static 'js/active.js' %}"></script>
+    <script src="{% static 'js/jquery.cbpQTRotator.min.js' %}"></script>
+
+
+        <footer>
+		<div class="contenedor" id="contacto">
+			<section class="contacto">
+                <div class="fh5co-heading text-center">
+                        <h3 class="fh5co-heading-title">Contacto <span class="border"></span></h3>       
+                </div>
+
+
+
+				<form class="formulario"   action="" id="formulario"
+                method="POST">
+					<input maxlength="5" minlength="5"type="text" placeholder="Nombre" name="nombre" required="" pattern="[a-zA-Z]+">
+					<input maxlength="30" minlength="5" type="email" placeholder="Correo" name="correo" required>
+                    <input maxlength="14" minlength="10"   type="text" placeholder="Número de teléfono" name="telefono" required="" pattern="[0-9]+">
+					<input maxlength="2" minlength="1"type="text" placeholder="Edad" name="edad" required="" pattern="[0-9]+">
+                    <textarea maxlength="200" minlength="5" name="mensaje" placeholder="¿Qué desea solicitar?:" required="" pattern="[a-zA-Z]+"></textarea>
+					<input class="boton" type="submit" value="Enviar">
+				</form>
+
+                       
+       
+			</section>
+		</div>
+        <script src="{% static 'js/formulario.js' %}"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+			
+		<section class="redes-sociales">
+			<div class="contenedor">
+				<a class="twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a class="facebook" href="https://www.facebook.com/Grupo-Simac-104720558017944" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a class="youtube" href="https://www.youtube.com/channel/UCTUYI8oOlTsSajvF4VdJIVA" target="_blank"><i class="fa fa-youtube-play"></i></a>
+				<a class="github" href="" target="_blank"><i class="fa fa-github"></i></a>
+				<a class="instagram" href="https://www.instagram.com/gruposimacc/" target="_blank"><i class="fa fa-instagram"></i></a>
+			</div>
+		</section>
+	</footer>
+
+    
+
+</body>
+
+</html>
